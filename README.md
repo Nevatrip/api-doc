@@ -66,7 +66,7 @@ Endpoint: GET `/get_schedule`
 
 При запросе с датой 14.10.2023, ответ должен содержать расписание на день 15.10.2023
 
-Endpoint: GET ``/next_programs``
+Endpoint: GET ``/next_events``
 
 Параметры запроса:
  - **date** - дата в формате Y-m-d (год-месяц-день)
