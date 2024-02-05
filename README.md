@@ -78,7 +78,7 @@ Endpoint: GET ``/next_events``
 ```JSON
 {
     "success": true,
-    "programs": [
+    "events": [
         "2023-10-15T13:00:00+03:00",
         "2023-10-15T14:00:00+03:00"
     ]
