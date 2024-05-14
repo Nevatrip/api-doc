@@ -103,6 +103,7 @@ endpoint: POST ``/order/create``
 - **our_id** - ID заказа в нашей системе
 - **date** - дата рейса в формате YYYY-MM-DD
 - **time** - время рейса в формате HH:mm (часы, минуты с ведущими нолями)
+- **pier_id** - id точки отправления
 - **program_id** - id программы
 - **tickets** - массив с билетами
 
@@ -112,7 +113,8 @@ endpoint: POST ``/order/create``
     "our_id": 1,
     "date": "2077-01-01",
     "time": "10:00",
-    "program_id": "123",
+    "program_id": 123,
+    "pier_id": 123,
     "tickets": [
         {
             "type_id": "123",
