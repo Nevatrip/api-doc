@@ -180,6 +180,7 @@ endpoint: GET ```/order/check```
 Пример ответа: 
 ```JSON
 {
+    "success": true,
     "can_pay": true
 }
 ```
