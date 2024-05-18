@@ -253,12 +253,14 @@ GET Параметры:
         "tickets": [
             {
                 "type_id": "123",
+                "type_name": "Взрослый",
                 "qr_code": "1234567890",
                 "quantity": 1,
                 "place": "2B",
             },
             {
                 "type_id": "111",
+                "type_name": "Детский",
                 "qr_code": "1234567890",
                 "place": "2A",
                 "quantity": 3
@@ -278,6 +280,7 @@ GET Параметры:
 - **order.pier.name** - Название точки отправления
 - **order.tickets.** - Массив с билетами в заказе
 - **order.tickets[].type_id** - id типа билета
+- **order.tickets[].type_name** - название билета
 - **order.tickets[].qr_code** - Контент QR кода, если есть. Необязательный параметр
 - **order.tickets[].place** - Номер места, строка. Необязательный параметр
 - **order.tickets[].quantity** - количество билетов в заказе
